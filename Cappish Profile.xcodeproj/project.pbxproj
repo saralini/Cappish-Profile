@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4F4038B19F4F56F004ABDD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4038A19F4F56F004ABDD6 /* Foundation.framework */; };
+		F4F4038D19F4F56F004ABDD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4038C19F4F56F004ABDD6 /* CoreGraphics.framework */; };
+		F4F4038F19F4F56F004ABDD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4038E19F4F56F004ABDD6 /* UIKit.framework */; };
+		F4F4039519F4F56F004ABDD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4F4039319F4F56F004ABDD6 /* InfoPlist.strings */; };
+		F4F4039719F4F56F004ABDD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4039619F4F56F004ABDD6 /* main.m */; };
+		F4F4039B19F4F56F004ABDD6 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4039A19F4F56F004ABDD6 /* BIDAppDelegate.m */; };
+		F4F4039E19F4F56F004ABDD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F4039C19F4F56F004ABDD6 /* Main.storyboard */; };
+		F4F403A119F4F56F004ABDD6 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F403A019F4F56F004ABDD6 /* BIDViewController.m */; };
+		F4F403A319F4F56F004ABDD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F403A219F4F56F004ABDD6 /* Images.xcassets */; };
+		F4F403AA19F4F56F004ABDD6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F403A919F4F56F004ABDD6 /* XCTest.framework */; };
+		F4F403AB19F4F56F004ABDD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4038A19F4F56F004ABDD6 /* Foundation.framework */; };
+		F4F403AC19F4F56F004ABDD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F4038E19F4F56F004ABDD6 /* UIKit.framework */; };
+		F4F403B419F4F56F004ABDD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4F403B219F4F56F004ABDD6 /* InfoPlist.strings */; };
+		F4F403B619F4F56F004ABDD6 /* Cappish_ProfileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F403B519F4F56F004ABDD6 /* Cappish_ProfileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4F403AD19F4F56F004ABDD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F4037F19F4F56F004ABDD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F4038619F4F56F004ABDD6;
+			remoteInfo = "Cappish Profile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4F4038719F4F56F004ABDD6 /* Cappish Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cappish Profile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F4038A19F4F56F004ABDD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4F4038C19F4F56F004ABDD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4F4038E19F4F56F004ABDD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4F4039219F4F56F004ABDD6 /* Cappish Profile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cappish Profile-Info.plist"; sourceTree = "<group>"; };
+		F4F4039419F4F56F004ABDD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4F4039619F4F56F004ABDD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4F4039819F4F56F004ABDD6 /* Cappish Profile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cappish Profile-Prefix.pch"; sourceTree = "<group>"; };
+		F4F4039919F4F56F004ABDD6 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		F4F4039A19F4F56F004ABDD6 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		F4F4039D19F4F56F004ABDD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4F4039F19F4F56F004ABDD6 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		F4F403A019F4F56F004ABDD6 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		F4F403A219F4F56F004ABDD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4F403A819F4F56F004ABDD6 /* Cappish ProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cappish ProfileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F403A919F4F56F004ABDD6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4F403B119F4F56F004ABDD6 /* Cappish ProfileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cappish ProfileTests-Info.plist"; sourceTree = "<group>"; };
+		F4F403B319F4F56F004ABDD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4F403B519F4F56F004ABDD6 /* Cappish_ProfileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cappish_ProfileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F4038419F4F56F004ABDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F4038D19F4F56F004ABDD6 /* CoreGraphics.framework in Frameworks */,
+				F4F4038F19F4F56F004ABDD6 /* UIKit.framework in Frameworks */,
+				F4F4038B19F4F56F004ABDD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F403A519F4F56F004ABDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F403AA19F4F56F004ABDD6 /* XCTest.framework in Frameworks */,
+				F4F403AC19F4F56F004ABDD6 /* UIKit.framework in Frameworks */,
+				F4F403AB19F4F56F004ABDD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4F4037E19F4F56F004ABDD6 = {
+			isa = PBXGroup;
+			children = (
+				F4F4039019F4F56F004ABDD6 /* Cappish Profile */,
+				F4F403AF19F4F56F004ABDD6 /* Cappish ProfileTests */,
+				F4F4038919F4F56F004ABDD6 /* Frameworks */,
+				F4F4038819F4F56F004ABDD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F4038819F4F56F004ABDD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4038719F4F56F004ABDD6 /* Cappish Profile.app */,
+				F4F403A819F4F56F004ABDD6 /* Cappish ProfileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F4038919F4F56F004ABDD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4038A19F4F56F004ABDD6 /* Foundation.framework */,
+				F4F4038C19F4F56F004ABDD6 /* CoreGraphics.framework */,
+				F4F4038E19F4F56F004ABDD6 /* UIKit.framework */,
+				F4F403A919F4F56F004ABDD6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F4039019F4F56F004ABDD6 /* Cappish Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4039919F4F56F004ABDD6 /* BIDAppDelegate.h */,
+				F4F4039A19F4F56F004ABDD6 /* BIDAppDelegate.m */,
+				F4F4039C19F4F56F004ABDD6 /* Main.storyboard */,
+				F4F4039F19F4F56F004ABDD6 /* BIDViewController.h */,
+				F4F403A019F4F56F004ABDD6 /* BIDViewController.m */,
+				F4F403A219F4F56F004ABDD6 /* Images.xcassets */,
+				F4F4039119F4F56F004ABDD6 /* Supporting Files */,
+			);
+			path = "Cappish Profile";
+			sourceTree = "<group>";
+		};
+		F4F4039119F4F56F004ABDD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4039219F4F56F004ABDD6 /* Cappish Profile-Info.plist */,
+				F4F4039319F4F56F004ABDD6 /* InfoPlist.strings */,
+				F4F4039619F4F56F004ABDD6 /* main.m */,
+				F4F4039819F4F56F004ABDD6 /* Cappish Profile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4F403AF19F4F56F004ABDD6 /* Cappish ProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F403B519F4F56F004ABDD6 /* Cappish_ProfileTests.m */,
+				F4F403B019F4F56F004ABDD6 /* Supporting Files */,
+			);
+			path = "Cappish ProfileTests";
+			sourceTree = "<group>";
+		};
+		F4F403B019F4F56F004ABDD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F403B119F4F56F004ABDD6 /* Cappish ProfileTests-Info.plist */,
+				F4F403B219F4F56F004ABDD6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F4038619F4F56F004ABDD6 /* Cappish Profile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F403B919F4F56F004ABDD6 /* Build configuration list for PBXNativeTarget "Cappish Profile" */;
+			buildPhases = (
+				F4F4038319F4F56F004ABDD6 /* Sources */,
+				F4F4038419F4F56F004ABDD6 /* Frameworks */,
+				F4F4038519F4F56F004ABDD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cappish Profile";
+			productName = "Cappish Profile";
+			productReference = F4F4038719F4F56F004ABDD6 /* Cappish Profile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4F403A719F4F56F004ABDD6 /* Cappish ProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F403BC19F4F56F004ABDD6 /* Build configuration list for PBXNativeTarget "Cappish ProfileTests" */;
+			buildPhases = (
+				F4F403A419F4F56F004ABDD6 /* Sources */,
+				F4F403A519F4F56F004ABDD6 /* Frameworks */,
+				F4F403A619F4F56F004ABDD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F403AE19F4F56F004ABDD6 /* PBXTargetDependency */,
+			);
+			name = "Cappish ProfileTests";
+			productName = "Cappish ProfileTests";
+			productReference = F4F403A819F4F56F004ABDD6 /* Cappish ProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F4037F19F4F56F004ABDD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					F4F403A719F4F56F004ABDD6 = {
+						TestTargetID = F4F4038619F4F56F004ABDD6;
+					};
+				};
+			};
+			buildConfigurationList = F4F4038219F4F56F004ABDD6 /* Build configuration list for PBXProject "Cappish Profile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F4037E19F4F56F004ABDD6;
+			productRefGroup = F4F4038819F4F56F004ABDD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F4038619F4F56F004ABDD6 /* Cappish Profile */,
+				F4F403A719F4F56F004ABDD6 /* Cappish ProfileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F4038519F4F56F004ABDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F403A319F4F56F004ABDD6 /* Images.xcassets in Resources */,
+				F4F4039519F4F56F004ABDD6 /* InfoPlist.strings in Resources */,
+				F4F4039E19F4F56F004ABDD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F403A619F4F56F004ABDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F403B419F4F56F004ABDD6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F4038319F4F56F004ABDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F4039B19F4F56F004ABDD6 /* BIDAppDelegate.m in Sources */,
+				F4F403A119F4F56F004ABDD6 /* BIDViewController.m in Sources */,
+				F4F4039719F4F56F004ABDD6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F403A419F4F56F004ABDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F403B619F4F56F004ABDD6 /* Cappish_ProfileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F403AE19F4F56F004ABDD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F4038619F4F56F004ABDD6 /* Cappish Profile */;
+			targetProxy = F4F403AD19F4F56F004ABDD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4F4039319F4F56F004ABDD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F4039419F4F56F004ABDD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4F4039C19F4F56F004ABDD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F4039D19F4F56F004ABDD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4F403B219F4F56F004ABDD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F403B319F4F56F004ABDD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4F403B719F4F56F004ABDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4F403B819F4F56F004ABDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F403BA19F4F56F004ABDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cappish Profile/Cappish Profile-Prefix.pch";
+				INFOPLIST_FILE = "Cappish Profile/Cappish Profile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4F403BB19F4F56F004ABDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cappish Profile/Cappish Profile-Prefix.pch";
+				INFOPLIST_FILE = "Cappish Profile/Cappish Profile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4F403BD19F4F56F004ABDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cappish Profile.app/Cappish Profile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cappish Profile/Cappish Profile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cappish ProfileTests/Cappish ProfileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4F403BE19F4F56F004ABDD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cappish Profile.app/Cappish Profile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cappish Profile/Cappish Profile-Prefix.pch";
+				INFOPLIST_FILE = "Cappish ProfileTests/Cappish ProfileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F4038219F4F56F004ABDD6 /* Build configuration list for PBXProject "Cappish Profile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F403B719F4F56F004ABDD6 /* Debug */,
+				F4F403B819F4F56F004ABDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F403B919F4F56F004ABDD6 /* Build configuration list for PBXNativeTarget "Cappish Profile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F403BA19F4F56F004ABDD6 /* Debug */,
+				F4F403BB19F4F56F004ABDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4F403BC19F4F56F004ABDD6 /* Build configuration list for PBXNativeTarget "Cappish ProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F403BD19F4F56F004ABDD6 /* Debug */,
+				F4F403BE19F4F56F004ABDD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F4037F19F4F56F004ABDD6 /* Project object */;
+}
